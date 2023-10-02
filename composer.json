@@ -1,0 +1,21 @@
+{
+    "name": "laurentclouet/anna-file-parser",
+    "description": "Parser for crazy big csv file",
+    "type": "project",
+    "require": {
+        "league/csv": "^9.11",
+        "symfony/console": "^6.3",
+        "symfony/string": "^6.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "Laurent\\AnnaFileParser\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Laurent Clouet",
+            "email": "laurent.clouet@westwing.pl"
+        }
+    ]
+}
